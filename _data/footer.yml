@@ -1,25 +1,25 @@
 left_links:
-  - name: Blog
+  - name: Poseidons 
+    link: /poseidons/
+  - name: Che storia
+    link: /chestoria/
+  - name: Stagione 2019 - 2020
     link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
 right_links:
+  # - name:
+  #   link: https://facebook.com/cloudcannon
+  #   new_window: true
+  #   social_icon: Facebook
+  # - name:
+  #   link: https://twitter.com/cloudcannon
+  #   social_icon: Twitter
+  #   new_window: true
+  # - name:
+  #   link: https://youtube.com/c/cloudcannon
+  #   social_icon: YouTube
+  #   new_window: true
   - name:
-    link: https://facebook.com/cloudcannon
-    new_window: true
-    social_icon: Facebook
-  - name:
-    link: https://twitter.com/cloudcannon
-    social_icon: Twitter
-    new_window: true
-  - name:
-    link: https://youtube.com/c/cloudcannon
-    social_icon: YouTube
-    new_window: true
-  - name:
-    link: https://instagram.com/
+    link: https://www.instagram.com/poseidonmilano_pallanuoto/
     social_icon: Instagram
     new_window: true
   - name:

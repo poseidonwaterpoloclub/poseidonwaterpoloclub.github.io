@@ -1,3 +1,9 @@
+- name: Poseidons 
+  link: /
+- name: Rosa
+  link: /poseidons
+- name: Che storia
+  link: /chestoria/
 - name: Stagione 2019 - 2020
   link: /blog/
 # - name: About

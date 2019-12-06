@@ -39,11 +39,14 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - vendor
 
 collections:
   staff_members:
     _hide_content: true
     _icon: account_circle
+  poseidons:
+    
 
 paginate: 10
 paginate_path: "/blog/:num/"
