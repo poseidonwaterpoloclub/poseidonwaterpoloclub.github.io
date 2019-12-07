@@ -1,31 +1,57 @@
-.staff {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	@extend %flexbox;
-	@include flex-flow(wrap);
-	text-align: center;
-	li {
-		padding: 30px 20px;
-		box-sizing: border-box;
-		width: 100%;
+.poseidons {
+	div {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
 
-		@media #{$tablet} {
-			@include flex(1, 1, 50%);
-		}
-
-		@media #{$desktop} {
-			@include flex(1, 1, 33%);
-		}
-
+	.number {
+		color: #666;
+		margin-bottom: 4px;
+		font-size: 2.2em;
 	}
 
 	.name {
 		margin-top: 20px;
+		font-size: 3.5em;
 	}
 
 	.position {
 		color: #666;
-		font-size: .8em;
+		margin-top: 4px;
+		font-size: 2.5em;
+	}
+
+	.description{
+		margin-top: 4px;
+		font-size: 1.5em;
+
+	}
+
+	.square-image {
+		height: 650px;
+		border-radius: 4px;
+		background-size:contain;
+		background-repeat:no-repeat;
+		margin: 0 auto;
+	}
+
+}
+
+
+@media #{$desktop} {
+	.poseidons {
+		.flex {
+			@include flexbox;
+			align-items: center;
+			flex-direction: row;
+
+			.text, .image {
+				-webkit-flex: 1;
+				flex: 1;
+				padding: 0 20px;
+				text-align: center;
+			}
+		}
 	}
 }

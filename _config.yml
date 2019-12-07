@@ -42,9 +42,9 @@ exclude:
   - vendor
 
 collections:
-  staff_members:
-    _hide_content: true
-    _icon: account_circle
+  # staff_members:
+  #   _hide_content: true
+  #   _icon: account_circle
   poseidons:
     
 
@@ -85,6 +85,11 @@ defaults:
           width: 1500
           height: 2000
           uploads_dir: "/images/post_uploads"
+  -
+    scope:
+      type: "stagione2020"
+    values:
+      layout: "stagione2020"
   -
     scope:
       path: "contact-success.html"
