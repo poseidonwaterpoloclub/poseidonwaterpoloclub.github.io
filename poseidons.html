@@ -25,15 +25,15 @@ description: We've built an amazing team of developers, marketers, designers and
 		{% endfor %} -->
 		{% assign poseidons = site.poseidons | sort: 'order' %}
 		{% for person in poseidons %}
-		<div class="container flex">
+		<div class="container flex poseidon-wrapper">
 			<div class="text">
 				<div class="name">{{ person.name }}</div>
-				<div class="position">{{ person.role }}</div>
-				<!-- <div class="description">{{ person.description }}</div> -->
+				<div class="position">{{ person.role }} #{{ person.number }} </div>
+				<div class="description">{{ person.description }}</div>
 			</div>
 			<div class="image">
 				<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-				<div class="number">#{{ person.number }}</div>
+				<div class="number">{{ person.motto }}</div>
 			</div>
 		</div>
 		{% endfor %}

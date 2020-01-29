@@ -3,6 +3,9 @@ name: Umberto
 role: Portiere
 image_path: /images/poseidons/umberto.jpg
 number: 1
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+description: "Così come costruisce la cultura delle future classi dirigenti in qualità di professore alle scuole medie, Umbe erige anche l’ultimo baluardo della difesa dei Poseidon in qualità di portierone (o estremo difensore, volendo scrivere con un piglio giornalistico più professionale). 
+Dostoevskij scrisse che «a volte l'uomo è straordinariamente, appassionatamente innamorato della sofferenza» e non c’è dubbio che il prof Umbe rispetti appieno questo principio perché per scegliere di diventare il nostro portiere ci vuole un pizzico di masochismo. "
+
+motto: "“Beda, porta i pasticcini!”"
 order: 2
 ---
